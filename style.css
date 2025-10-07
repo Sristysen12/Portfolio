@@ -10,7 +10,8 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid #ccc;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .header-text h1 {
@@ -39,13 +40,28 @@ body {
   margin-bottom: 5px;
   padding: 4px 4px ;
   font-size: 1rem;
+ border-bottom: 2px solid #ccc;
 }
-.Summary-head .Summary{
+
+.Summary-head  .Summary-para .skills .Projects .workshop-details .interest .table-marks .certi{
    text-align: justify;
     color: #222;
-    border-bottom: 2px solid #ccc;
     margin-bottom: 15px;
+    padding-bottom: 12px ;
 }
+ 
+.Projects a {
+  color: #2a4d91;
+  text-decoration: none;
+}
+
+.Projects a:hover {
+  text-decoration: underline;
+}
+
+
+
+
 .resume-table {
   width: 100%;
   border-collapse: collapse;
@@ -66,22 +82,12 @@ body {
 }
 .table-marks{
     border-bottom: 2px solid #ccc;
+     margin-top: 8px;
+  margin-bottom: 25px;
 }
-.Summary-head .skills{
-    color: #222;
-    border-bottom: 2px solid #ccc;
-    margin: 0px 4px 0px 0px ;
+ul {
+  margin: 8px 0 8px 20px;
 }
-.Summary-head .workshop-details ul{
-    color: #222;
-    border-bottom: 2px solid #ccc;
-    margin: 0px 4px 0px 0px ;
-}
-.Summary-head .Projects{
-       color: #222;
-    border-bottom: 2px solid #ccc;
-}
-.Summary-head .interest{
-       color: #222;
-    border-bottom: 2px solid #ccc;
+li {
+  margin-bottom: 6px;
 }
