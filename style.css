@@ -67,7 +67,21 @@ body {
 .table-marks{
     border-bottom: 2px solid #ccc;
 }
-.Summary-head ul.skills{
+.Summary-head .skills{
     color: #222;
+    border-bottom: 2px solid #ccc;
+    margin: 0px 4px 0px 0px ;
+}
+.Summary-head .workshop-details ul{
+    color: #222;
+    border-bottom: 2px solid #ccc;
+    margin: 0px 4px 0px 0px ;
+}
+.Summary-head .Projects{
+       color: #222;
+    border-bottom: 2px solid #ccc;
+}
+.Summary-head .interest{
+       color: #222;
     border-bottom: 2px solid #ccc;
 }
